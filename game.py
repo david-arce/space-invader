@@ -94,3 +94,14 @@ for i in range(num_of_enemies):
     enemyX_change.append(5)
     enemyY_change.append(20)
     
+    #se inicializan las variables para guardar la posición de la bala
+    bulletX = 0
+    bulletY = 480
+    bulletX_change = 0
+    bulletY_change = 10
+    bullet_state = "ready"
+    
+    #se inicializa la puntuación en 0
+    score = 0
+    
+    
